@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./landingpage.css">
+    <script src="https://kit.fontawesome.com/5d2a852a3f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <style>
+      .contact{
+          max-width: 650px;
+          margin: 60px auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .contact-text{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+      }
+
+      .contact .contact-text h2{
+          color:#500285;
+          font-size: 60px;
+          font-weight: bold;
+          line-height: 80px;
+          margin-bottom: 40px;
+      }
+
+      .contact .contact-text p{
+          color: rgb(42, 18, 54);
+          font-size: 20px;
+          font-weight: 550;
+          margin-bottom: 50px;
+          background: #a14dcb5e;
+          border-radius: 20px;
+          padding: 20px 30px;
+      }
+
+      @media (max-width: 960px) {
+          .contact {
+              margin: 60px auto; 
+              padding: 0 20px; 
+          }
+
+          .contact .contact-text h2 {
+              font-size: 40px; 
+              line-height: 60px; 
+              margin-bottom: 30px; 
+          }
+
+          .contact .contact-text p {
+              font-size: 16px; 
+              margin-bottom: 40px; 
+              padding: 15px 20px;
+          }
+      }
+
+      @media (max-width: 560px){
+          .contact .contact-text h2{
+              font-size: 30px;
+              line-height: 45px;
+          }
+
+          .contact .contact-text p{
+              font-size: 15px;
+          }
+      }
+   </style>
+</head>
+<body>
+    <section>
+      <input type="checkbox" id="check">
+      <header>
+          <h1 class="logo">MyWebsite</h1>
+          <div class="navbar">
+            <a href="./landingpage.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./info.html">Info</a>
+            <a href="./sevices.html">Services</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+          <label for="check">
+            <i class="fa-solid fa-bars menu"></i>
+            <i class="fa-solid fa-xmark close"></i>
+          </label>
+      </header>
+
+      <div class="contact">
+        <div class="contact-text">
+           <h2>Contact Us</h2>
+           <p>
+              <i class="fa-solid fa-map-marker-alt"></i>  1234 Street Name, City Name, <br> 
+              United States<br>
+              <i class="fa-solid fa-brands fa-linkedin"></i> linkedin.com/in/xyz<br>
+              <i class="fa-solid fa-phone"></i>  +123 456 7890<br>
+              <i class="fa-solid fa-envelope"></i>  xyz@gmail.com<br> 
+           </p>
+        </div>
+      </div>
+    </section> 
+</body>
+</html>

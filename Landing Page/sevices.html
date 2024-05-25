@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="./landingpage.css">
+    <script src="https://kit.fontawesome.com/5d2a852a3f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <style>
+      .services{
+          max-width: 650px;
+          margin: 60px auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .services-text{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+      }
+
+      .services .services-text h2{
+          color:#500285;
+          font-size: 60px;
+          font-weight: bold;
+          line-height: 80px;
+          margin-bottom: 40px;
+      }
+
+      .services .services-text p{
+          color: rgb(42, 18, 54);
+          font-size: 20px;
+          font-weight: 550;
+          margin-bottom: 50px;
+          background: #a14dcb5e;
+          border-radius: 20px;
+          padding: 20px 30px;
+          line-height: 50px;
+      }
+
+      @media (max-width: 960px) {
+          .services {
+              margin: 60px auto; 
+              padding: 0 20px; 
+          }
+
+          .services .services-text h2 {
+              font-size: 40px; 
+              line-height: 60px; 
+              margin-bottom: 30px; 
+          }
+
+          .services .services-text p {
+              font-size: 16px; 
+              margin-bottom: 40px; 
+              padding: 15px 20px;
+              line-height: 40px;
+          }
+      }
+
+      @media (max-width: 560px){
+          .services .services-text h2{
+              font-size: 30px;
+              line-height: 45px;
+          }
+
+          .services .services-text p{
+              font-size: 15px;
+              line-height: 30px;
+          }
+      }
+   </style>
+</head>
+<body>
+    <section>
+      <input type="checkbox" id="check">
+      <header>
+          <h1 class="logo">MyWebsite</h1>
+          <div class="navbar">
+            <a href="./landingpage.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./info.html">Info</a>
+            <a href="./sevices.html">Services</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+          <label for="check">
+            <i class="fa-solid fa-bars menu"></i>
+            <i class="fa-solid fa-xmark close"></i>
+          </label>
+      </header>
+
+      <div class="services">
+        <div class="services-text">
+           <h2>Our Services</h2>
+           <p>
+             <b>We provide the following services:</b><br><br>
+              Web Development<br>
+              App Development<br>
+              SEO<br>
+              Content Writing<br>
+              Graphic Designing<br>
+           </p>
+        </div>
+      </div>
+    </section> 
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="./landingpage.css">
+    <script src="https://kit.fontawesome.com/5d2a852a3f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <style>
+      .info{
+          max-width: 650px;
+          margin: 60px auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .info-text{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+      }
+
+      .info .info-text h2{
+          color:#500285;
+          font-size: 60px;
+          font-weight: bold;
+          line-height: 80px;
+          margin-bottom: 40px;
+      }
+
+      .info .info-text p{
+          color: rgb(42, 18, 54);
+          font-size: 20px;
+          font-weight: 550;
+          margin-bottom: 50px;
+          background: #a14dcb5e;
+          border-radius: 20px;
+          padding: 20px 30px;
+      }
+
+      .info .info-text p a{
+          color: #500285;
+          font-weight: bold;
+      }
+
+      @media (max-width: 960px) {
+          .info {
+              margin: 60px auto; 
+              padding: 0 20px; 
+          }
+
+          .info .info-text h2 {
+              font-size: 40px; 
+              line-height: 60px; 
+              margin-bottom: 30px; 
+          }
+
+          .info .info-text p {
+              font-size: 16px; 
+              margin-bottom: 40px; 
+              padding: 15px 20px;
+          }
+      }
+
+      @media (max-width: 560px){
+          .info .info-text h2{
+              font-size: 30px;
+              line-height: 45px;
+          }
+
+          .info .info-text p{
+              font-size: 15px;
+          }
+      }
+   </style>
+</head>
+<body>
+    <section>
+      <input type="checkbox" id="check">
+      <header>
+          <h1 class="logo">MyWebsite</h1>
+          <div class="navbar">
+            <a href="./landingpage.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./info.html">Info</a>
+            <a href="./sevices.html">Services</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+          <label for="check">
+            <i class="fa-solid fa-bars menu"></i>
+            <i class="fa-solid fa-xmark close"></i>
+          </label>
+      </header>
+
+      <div class="info">
+        <div class="info-text">
+           <h2>More Info</h2>
+           <p>
+            Being imaginative and creative is an intrinsic aspect of the human experience, shaping our perceptions, innovations, 
+            and understanding of the world around us. At the heart of imagination lies the ability to conceive of possibilities 
+            beyond the constraints of reality, while creativity manifests as the transformation of these imaginative visions 
+            into tangible expressions, whether through art, literature, science, or everyday problem-solving.<br><br>
+            
+            Imagination is the spark that ignites innovation and progress. It allows us to explore hypothetical scenarios, envision
+            alternative futures, and contemplate solutions to complex problems. From the earliest cave paintings to the latest scientific 
+            breakthroughs, human history is a testament to the power of imagination to propel us forward.<br><br>
+            
+            Creativity, on the other hand, is the bridge between imagination and reality. It is the process of bringing imaginative ideas to
+            life through novel combinations, interpretations, and expressions. Whether it's composing a symphony, crafting a story, or devising 
+            a groundbreaking invention, creativity transforms abstract concepts into concrete manifestations that enrich our lives and expand the
+            boundaries of human achievement.<br><br>
+            
+            Moreover, being imaginative and creative fosters adaptability and resilience in the face of challenges. It encourages us to approach 
+            problems from multiple perspectives, to think outside the box, and to embrace uncertainty as an opportunity for growth. In a rapidly 
+            changing world, those who can harness their imagination and creativity are better equipped to navigate complexity and find innovative 
+            solutions to the challenges of our time.<br><br>
+            
+            In conclusion, being imaginative and creative is not only a fundamental aspect of human nature but also a driving force behind progress, 
+            innovation, and empathy. By nurturing our imagination and embracing our creative impulses, we not only enrich our own lives but also 
+            contribute to the collective tapestry of human experience, shaping a brighter and more imaginative future for generations to come.<br><br>
+
+            <a href="./landingpage.html" style="text-decoration: none;"><b>Back</b></a>
+           </p>
+        </div>
+      </div>
+    </section> 
+</body>
+</html>
